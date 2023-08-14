@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+	
+}
+.container-center{
+	position: absolute;
+	top: 40vh;
+	left: 50vw;
+	transform: translate(-50%,-50%);
+}
+
+.login-img{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.img-mt{
+	margin-top: 400px; 
+}
+
+.text-right{
+	display: inline-block;
+	text-align: right;
+}
+.btn-center{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.linkedin:hover {
+	color: rgb(76, 76, 255);
+}
+
+.twitter:hover {
+	color: blue;
+}
+
+.instagram:hover {
+	color: rgb(228, 64, 95);
+}
+
+/* card effect */
+.card-effect{
+	position: relative;
+	perspective-origin: center;
+}
+.card-font{
+	position: absolute;
+	backface-visibility: hidden;
+}
+.card-back{
+	position: absolute;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+}

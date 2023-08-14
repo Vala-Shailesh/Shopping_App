@@ -11,7 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
 	
 	<!-- Style Sheet's -->
-<!-- 	<link rel="stylesheet" type="text/css" href="./resources/CSS/style.css" /> -->
 	<style>
 		<%@include file="./resources/CSS/style.css" %>
 	</style>
