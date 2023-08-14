@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+     padding: 0;
+     margin: 0;
+}
+nav{
+     background-color: rgb(80, 80, 255);
+     font-weight: 530;
+}
+.navbar-brand{
+     font-size: 1.5rem;
+}
+.navbar-nav{
+     display: flex;
+}
+.product{
+     cursor: pointer;
+}
+.product:hover{
+     transform: scale(1.2);
+}
+.offer-products:hover{
+     box-shadow: 0 0 14px 1px rgba(0,0, 0, 0.1);
+     border: 0;
+     border-radius: 20px;
+}
+
+/* navbar */
+.nav-item{
+     display: flex;
+}
+.nav-item svg{
+     position: relative;
+     top: 13px;
+}
+.btn-center{
+     position: relative;
+     left: 50%;
+     transform: translate(-50%);
+}
+
+/* footer */
+.footer-link{
+     font-size: 1.3rem;
+     font-weight: 500;
+}
+.footer-link:hover{
+     text-decoration: underline;
+}
+
+/* some usefull claases */
+.w-90{
+     width: 90%;
+}
+.title{
+     font-size: 2rem;
+}
+.cursor-pointer{
+     cursor: pointer;
+}
