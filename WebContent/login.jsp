@@ -6,14 +6,14 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
-<!-- boostarp addition -->
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-	rel="stylesheet">
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-	crossorigin="anonymous" defer></script>
+	<!-- boostarp addition -->
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+		rel="stylesheet">
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous" defer></script>
 
 	<!-- style sheet -->
 	<link rel="stylesheet" type="text/css"href="./resources/CSS/dynamic.css" />
@@ -38,7 +38,7 @@
 						</div>
 						<div class="col-lg-5 col-md-6 col-sm-10 mx-auto mt-5">
 							<h1 class="text-center">Login</h1>
-							<form class="mt-5">
+							<form action="./index" method="post" class="mt-5">
 								<div class="mb-3">
 									<label for="email" class="form-label"> Email address</label> <input
 										type="email" class="form-control" id="email">
@@ -94,7 +94,7 @@
 			<div class="card-back">
 				<div class="container-lg shadow mt-5 mx-auto p-3 rounded-3">
 					<h1 class="text-center my-4">Registration</h1>
-					<form class="row g-3 w-90 mx-auto">
+					<form action="./login" method="post" class="row g-3 w-90 mx-auto">
 						<div class="col-md-6">
 							<label for="useremail" class="form-label">Email</label> <input
 								type="email" class="form-control" id="useremail"

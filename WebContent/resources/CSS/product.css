@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+	user-select: none;
+}
+.p-p-img{
+	width: 500px;
+	height: 650px;
+}
+.img-sm{
+	width: 80px;
+}
+.rating-box{ 
+	position: absolute;
+	top: 20px; 
+	right: 0px; 
+	font-size: 2rem;
+}
+.f-2{
+	font-size: 2rem;
+}
+.f-1-5{
+	font-size: 1.5rem;
+}
