@@ -24,7 +24,7 @@
 <body>
 
 	<!-- navbar -->
-	<%@include file="./include/navbar.html"%>
+	<%@include file="./include/navbar.jsp"%>
 
 	<!-- product brief details -->
 	<div class="container text-center my-5">
@@ -145,7 +145,7 @@
 			<h1> Similary Product's </h1>
 		</div>
 	</div>
-	<%@include file="./include/moblie.html" %>
+	<%@include file="./include/moblie.jsp" %>
 	
 	<!-- Today Offer -->
 	<div class="container-fluid w-90">
@@ -153,10 +153,10 @@
 			<h1> Today Offer's </h1>
 		</div>
 	</div>
-	<%@include file="./include/todayOffer.html" %>
+	<%@include file="./include/todayOffer.jsp" %>
 	
 	<!-- footer -->
-	<%@include file="./include/footer.html"%>
+	<%@include file="./include/footer.jsp"%>
 
 
 </body>

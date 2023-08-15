@@ -1,4 +1,4 @@
- <div class="container-fluid mx-auto row w-90">
+  <div class="container-fluid mx-auto row w-90">
       <div class="col-lg-3 offer-products">
            <div class="row justify-content-center p-5">
                 <img src="./resources/Images/saree/Anand Sarees Printed Striped Daily Wear Georgette Saree.webp" alt="moblie Images" style="width: 200px; height: 250px;">

@@ -19,10 +19,10 @@
 <body>
 	
       <!-- header -->
-     <%@include file="./include/navbar.html" %>
+     <%@include file="./include/navbar.jsp" %>
 
      <!-- secound header for item's -->
-     <%@include file="./include/secoundNavbar.html" %>
+     <%@include file="./include/secoundNavbar.jsp" %>
     
 
      <!-- Welcome message -->
@@ -31,21 +31,21 @@
      </div>
 
      <!-- shopping item's -->
-	<%@include file="./include/productFirstPresentation.html" %>
+	<%@include file="./include/productFirstPresentation.jsp" %>
 
 	<!-- product container -->
      <div class="container-fluid w-90">
           <h2 class="m-5"> Air Phone Zone </h2>
      </div>
 
-	<%@include file="./include/AirPhoneZone.html" %>
+	<%@include file="./include/airPhoneZone.jsp" %>
 	
 	<!-- product container -->		
      <div class="container-fluid w-90">
           <h2 class="m-5"> Smart Moblie Zone </h2>
      </div>
      
-     <%@include file="./include/moblie.html" %>
+     <%@include file="./include/moblie.jsp" %>
      
 
      <!-- offer-products part's -->
@@ -53,10 +53,10 @@
          <h1> Best offer-productses for Women's </h1>
      </div>
       
-	<%@include file="./include/todayOffer.html" %>
+	<%@include file="./include/todayOffer.jsp" %>
 
      <!-- footer part -->
-	<%@include file="./include/footer.html" %>
+	<%@include file="./include/footer.jsp" %>
 
      
 </body>
